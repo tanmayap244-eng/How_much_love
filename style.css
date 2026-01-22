@@ -17,20 +17,20 @@ html, body {
 
 /* --- Spaceship --- */
 #spaceship {
+  width: 50px;           /* or whatever size you want */
+  height: auto;          /* maintain aspect ratio if using img inside */
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;              /* CONTROL SIZE HERE */
-  height: auto;
-  z-index: 20;
-background: rgba(255,0,0,0.3);
+  z-index: 10;           /* on top of falling hearts */
 }
-
 #spaceship img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
 }
 /* --- YES text --- */
 .asteroid {
