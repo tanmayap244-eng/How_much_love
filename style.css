@@ -36,8 +36,11 @@ html, body {
 /* --- YES text --- */
 .asteroid {
   position: absolute;
-  top: -120px;
-  font-weight: bold;
+  width: min(10vw, 60px);
+  height: min(10vw, 60px);
+  font-size: min(8vw, 48px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   user-select: none;
-  text-shadow: 0 0 10px currentColor;
 }
