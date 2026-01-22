@@ -37,12 +37,8 @@ html, body {
 /* --- YES text --- */
 .asteroid {
   position: absolute;
-  width: min(10vw, 60px);
-  height: min(10vw, 60px);
-  font-size: min(8vw, 48px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 42px;      /* FIXED SIZE */
+  line-height: 1;
   user-select: none;
- z-index:5;
+  z-index: 5;
 }
