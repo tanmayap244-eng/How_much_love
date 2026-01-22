@@ -28,7 +28,7 @@ function createAsteroid() {
   asteroid.classList.add("asteroid");
   asteroid.innerText =
   hearts[Math.floor(Math.random() * hearts.length)];
-asteroid.style.fontSize = "100px";
+asteroid.style.fontSize = "42px";
 
 game.appendChild(asteroid);
 
