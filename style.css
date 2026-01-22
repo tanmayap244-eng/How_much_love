@@ -21,18 +21,16 @@ html, body {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 70px;
+  width: 80px;              /* CONTROL SIZE HERE */
   height: auto;
-  z-index: 10;
-}
-#spaceship img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  pointer-events: none;
-  transition: transform 0.1s ease;
+  z-index: 20;
 }
 
+#spaceship img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* --- YES text --- */
 .asteroid {
   position: absolute;
